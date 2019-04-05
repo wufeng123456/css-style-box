@@ -15,6 +15,7 @@
 <script>
 import ThreePointLoading from 'components/loading/three-point-loading'
 import RainbowLoading from 'components/loading/rainbow-loading'
+import FloatLoading from 'components/loading/float-loading'
 export default {
 	name: 'index',
 	data () {
@@ -30,13 +31,18 @@ export default {
 				{
 					name: 'RainbowLoading',
 					desc: '彩虹loading'
+				},
+				{
+					name: 'floatLoading',
+					desc: '鱼浮loading'
 				}
 			]
 		}
 	},
 	components: {
 		ThreePointLoading,
-		RainbowLoading
+		RainbowLoading,
+		FloatLoading
 	},
 	methods: {
 		select (val, index) {
