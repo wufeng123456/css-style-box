@@ -28,11 +28,11 @@ export default {
 @keyframes rotation {
 	from {
 		opacity: 1.2;
-		// transform: scale(1.2);
+		transform: scale(1.2);
 	}
 	to {
 		opacity: 0.3;
-		// transform: scale(0);
+		transform: scale(0);
 	}
 }
 .float-loading {
