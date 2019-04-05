@@ -16,6 +16,7 @@
 import ThreePointLoading from 'components/loading/three-point-loading'
 import RainbowLoading from 'components/loading/rainbow-loading'
 import FloatLoading from 'components/loading/float-loading'
+import ScrollList from 'components/list/scroll-list'
 export default {
 	name: 'index',
 	data () {
@@ -33,8 +34,12 @@ export default {
 					desc: '彩虹loading'
 				},
 				{
-					name: 'floatLoading',
+					name: 'FloatLoading',
 					desc: '鱼浮loading'
+				},
+				{
+					name: 'ScrollList',
+					desc: '滚动list'
 				}
 			]
 		}
@@ -42,7 +47,8 @@ export default {
 	components: {
 		ThreePointLoading,
 		RainbowLoading,
-		FloatLoading
+		FloatLoading,
+		ScrollList
 	},
 	methods: {
 		select (val, index) {
