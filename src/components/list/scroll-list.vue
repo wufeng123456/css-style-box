@@ -21,22 +21,22 @@ export default {
 		return {
 			list: [
 				{
-					name: '语文语文语文语文'
+					name: '盖伦'
 				},
 				{
-					name: '数学'
+					name: '石头人'
 				},
 				{
-					name: '英语英语英语英语英语'
+					name: '小法'
 				},
 				{
-					name: '日语日语日语'
+					name: '瞎子'
 				},
 				{
-					name: '法语法语法语法语'
+					name: '流浪法师'
 				},
 				{
-					name: '意大利炮'
+					name: '尼古拉斯——赵四'
 				}
 			],
 			left: 0
