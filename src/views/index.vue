@@ -23,6 +23,7 @@ export default {
 	name: 'index',
 	data () {
 		return {
+			tag: 1,
 			logo: 'logo',
 			selectComponent: 'ThreePointLoading',
 			selectIndex: 0,
