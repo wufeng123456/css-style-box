@@ -7,6 +7,7 @@
 			</div>
 		</div>
 		<div class="page__right">
+			<div></div>
 			<component :is="selectComponent"></component>
 		</div>
 	</div>
