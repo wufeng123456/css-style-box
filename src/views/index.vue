@@ -24,6 +24,7 @@ export default {
 	data () {
 		return {
 			tag: 1,
+			tags: [1, 3],
 			logo: 'logo',
 			selectComponent: 'ThreePointLoading',
 			selectIndex: 0,
