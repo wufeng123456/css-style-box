@@ -17,6 +17,8 @@ import ThreePointLoading from 'components/loading/three-point-loading'
 import RainbowLoading from 'components/loading/rainbow-loading'
 import FloatLoading from 'components/loading/float-loading'
 import ScrollList from 'components/list/scroll-list'
+import CharacterInput from 'components/animation/character-input'
+
 export default {
 	name: 'index',
 	data () {
@@ -40,6 +42,10 @@ export default {
 				{
 					name: 'ScrollList',
 					desc: '滚动list'
+				},
+				{
+					name: 'CharacterInput',
+					desc: '字符输入动画'
 				}
 			]
 		}
@@ -48,7 +54,8 @@ export default {
 		ThreePointLoading,
 		RainbowLoading,
 		FloatLoading,
-		ScrollList
+		ScrollList,
+		CharacterInput
 	},
 	methods: {
 		select (val, index) {
