@@ -18,6 +18,7 @@ import RainbowLoading from 'components/loading/rainbow-loading'
 import FloatLoading from 'components/loading/float-loading'
 import ScrollList from 'components/list/scroll-list'
 import CharacterInput from 'components/animation/character-input'
+import FloatBox from 'components/float-box/float-box'
 
 export default {
 	name: 'index',
@@ -48,6 +49,10 @@ export default {
 				{
 					name: 'CharacterInput',
 					desc: '字符输入动画'
+				},
+				{
+					name: 'FloatBox',
+					desc: 'hover浮框'
 				}
 			]
 		}
@@ -57,7 +62,8 @@ export default {
 		RainbowLoading,
 		FloatLoading,
 		ScrollList,
-		CharacterInput
+		CharacterInput,
+		FloatBox
 	},
 	methods: {
 		select (val, index) {
@@ -70,7 +76,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/color.scss';
 .page {
 	width: 100%;
 	height: 100%;
@@ -104,6 +109,7 @@ export default {
 		}
 	}
 	&__right {
+		position: relative;
 		height: 100%;
 		margin-left: 300px;
 	}
