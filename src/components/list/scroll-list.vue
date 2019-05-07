@@ -66,7 +66,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/color.scss';
 .scroll-list {
 	width: 100%;
 	height: 100%;

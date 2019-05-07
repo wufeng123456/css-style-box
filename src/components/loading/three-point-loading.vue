@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/color.scss';
 @keyframes bounce {
 	to {
 		opacity: 0.1;

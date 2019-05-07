@@ -24,7 +24,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../assets/color.scss';
 @keyframes rotation {
 	from {
 		opacity: 1.2;
