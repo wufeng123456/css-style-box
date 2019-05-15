@@ -1,10 +1,10 @@
 <template>
 	<div class="float-box">
-		<div class="float-box__core" @mouseover="trigger" @mouseout="out">
-			<span class="float-box__core__trigger">摸我</span>
-			<div v-show="visible" class="float-box__core__content">what are you doing</div>
+		<div class="float-box__core">
+			<span class="float-box__core__trigger" @mouseover="trigger" @mouseout="out">touch me</span>
+			<div class="float-box__core__content" @mouseover="trigger" @mouseout="out" :class="{'float-box__core__content--show': visible}">what are you doing</div>
 		</div>
-		<div>test</div>
+		<div>texte</div>
 	</div>
 </template>
 
@@ -22,9 +22,7 @@ export default {
 			this.visible = true
 		},
 		out () {
-			setTimeout(() => {
-				this.visible = false
-			}, 2000)
+			this.visible = false
 		}
 	}
 }
@@ -39,6 +37,7 @@ export default {
 	bottom: 0;
 	&__core {
 		position: relative;
+		display: inline-block;
 		&__trigger {
 			display: inline-block;
 			width: 100px;
@@ -52,6 +51,11 @@ export default {
 			width: 100px;
 			height: 100px;
 			border: 1px solid $main-color;
+			opacity: 0;
+			transition: opacity 2s;
+			&--show {
+				opacity: 1;
+			}
 		}
 	}
 }
