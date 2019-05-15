@@ -11,6 +11,7 @@ export default {
 	name: 'three-point-loading',
 	data () {
 		return {
+			data: ''
 		}
 	}
 }
