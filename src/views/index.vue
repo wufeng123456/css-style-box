@@ -59,6 +59,7 @@ export default {
 	},
 	methods: {
 		select (val, index) {
+			console.log(9999)
 			this.selectIndex = index
 			this.selectComponent = val.name
 		}
