@@ -36,10 +36,7 @@ export default {
 					name: '流浪法师'
 				},
 				{
-					name: '尼古拉斯——赵四'
-				},
-				{
-					name: '尼古拉斯——铁锤'
+					name: '尼古拉斯——赵san'
 				}
 			],
 			left: 0
