@@ -39,7 +39,8 @@ export default {
 					name: '尼古拉斯——赵si'
 				}
 			],
-			left: 0
+      left: 0,
+      bottom: 2
 		}
 	},
 	computed: {
