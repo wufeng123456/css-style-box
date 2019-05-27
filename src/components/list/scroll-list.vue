@@ -40,7 +40,7 @@ export default {
 				}
 			],
       left: 0,
-      right: 1
+      right: 7
 		}
 	},
 	computed: {
