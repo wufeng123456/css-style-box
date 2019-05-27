@@ -39,7 +39,8 @@ export default {
 					name: '尼古拉斯——赵san'
 				}
 			],
-			left: 0
+      left: 0,
+      right: 1
 		}
 	},
 	computed: {
